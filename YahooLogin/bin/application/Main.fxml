@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.emojione.EmojiOneView?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1360.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Hyperlink layoutX="1247.0" layoutY="15.0" text="Aide" textFill="#296ee4" />
+      <AnchorPane layoutX="804.0" layoutY="63.0" prefHeight="560.0" prefWidth="400.0" style="-fx-background-color: #ffffff; -fx-border-color: #ffffff;">
+         <children>
+            <JFXTextField layoutX="45.0" layoutY="167.0" prefHeight="34.0" prefWidth="319.0" promptText="Entrer votre adresse emaiil" unFocusColor="#001eff">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </JFXTextField>
+            <JFXButton layoutX="45.0" layoutY="271.0" prefHeight="25.0" prefWidth="319.0" style="-fx-background-color: #34bde7;" text="Suivant" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="142.0" layoutY="2.0" text="Y" textFill="#9137b5">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <Label layoutX="160.0" layoutY="12.0" text="A" textFill="#9137b5">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="179.0" layoutY="8.0" prefHeight="47.0" prefWidth="23.0" text="H" textFill="#9137b5">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="218.0" layoutY="10.0" text="O" textFill="#9137b5">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="198.0" layoutY="10.0" text="O" textFill="#9137b5">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="169.0" layoutY="44.0" text="FRANCE" textFill="#9137b5" />
+            <Label layoutX="238.0" layoutY="4.0" prefHeight="45.0" prefWidth="12.0" text="!" textFill="#b139c6">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <Label layoutX="134.0" layoutY="83.0" text="Se connecter">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="45.0" layoutY="523.0" text="Vous n'avez pas de compte ? ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Hyperlink layoutX="280.0" layoutY="519.0" text="Inscription" textFill="#34bde7" underline="true">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Hyperlink>
+            <Label layoutX="236.0" layoutY="337.0" text="Des problèmes pour&#10;vous connecter ?" textFill="#34bde7">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <CheckBox layoutX="54.0" layoutY="337.0" mnemonicParsing="false" selected="true" text="Rester connecté" textFill="#34bde7">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <AnchorPane prefHeight="9.0" prefWidth="400.0" style="-fx-background-color: #3337fe;" />
+         </children>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </AnchorPane>
+      <Label layoutX="30.0" layoutY="17.0" text="Y" textFill="#9137b5">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="27.0" text="A" textFill="#9137b5">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="23.0" prefHeight="47.0" prefWidth="23.0" text="H" textFill="#9137b5">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="106.0" layoutY="25.0" text="O" textFill="#9137b5">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="25.0" text="O" textFill="#9137b5">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="59.0" text="FRANCE" textFill="#9137b5" />
+      <Label layoutX="126.0" layoutY="19.0" prefHeight="45.0" prefWidth="12.0" rotate="14.0" text="!" textFill="#b139c6">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="668.0" text="Droit européen : En me connectant, j’accepte que Yahoo utilise des cookies dans mon navigateur. " />
+      <Label layoutX="476.0" layoutY="698.0" text="CGU | Vie privée" textFill="#1aaae8" />
+      <EmojiOneView fill="#0636e1" glyphName="_100" layoutX="349.0" layoutY="270.0" size="120.0" />
+      <EmojiOneView fill="#0400ff" glyphName="SMILEY" layoutX="591.0" layoutY="270.0" size="120.0" />
+      <MaterialDesignIconView glyphName="CLOSE" layoutX="1314.0" layoutY="39.0" onMouseClicked="#closeApps" size="22.0" />
+   </children>
+</AnchorPane>
